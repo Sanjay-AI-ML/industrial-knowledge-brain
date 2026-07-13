@@ -1,0 +1,46 @@
+BHARAT PETROLEUM CORPORATION LIMITED
+Mathura Refinery — Health, Safety and Environment (HSE) Department
+INCIDENT REPORT (NEAR-MISS)
+============================================================
+
+Incident ID: IR-2024-0156
+Date of Incident: 14-March-2024
+Time of Incident: 06:15 hrs
+Incident Class: Near-Miss (Category 1)
+Area / Location: CDU-1 Pump House (Rotary bay)
+
+------------------------------------------------------------
+1. DESCRIPTION OF INCIDENT
+------------------------------------------------------------
+On 14-March-2024 at approximately 06:15 hrs, during Shift A handover rounds, field operator Rakesh Sharma noticed white vapor and oil dripping from the mechanical seal gland of the main Crude Charge Pump P-101A. 
+Vibration on the NDE bearing was escalating rapidly to 7.2 mm/s, which exceeded the safety trip limit of 7.1 mm/s. The local alarm sounded on the annunciator panel.
+
+No fire occurred, and there were no injuries. The operator immediately initiated emergency shutdown of P-101A and switched to standby pump P-101B. 
+A vapor cloud was prevented by immediately activating the local steam utility to flush the gland area, suppressing volatile hydrocarbons.
+
+------------------------------------------------------------
+2. PRELIMINARY ANALYSIS AND ROOT CAUSES
+------------------------------------------------------------
+The incident was caused by:
+- **Mechanical Seal Failure (Machine):** Premature wear on the carbon face of the John Crane 2100 seal.
+- **Vibration cyclic load (Machine):** Shaft misalignment (0.12 mm offset) recorded since the last maintenance overhaul in August 2023.
+- **Lubricant depletion (Method):** Worn NDE bearings resulting from poor oil circulation, causing bearing heat up to 88 degC.
+
+------------------------------------------------------------
+3. IMMEDIATE AND PREVENTATIVE RECOMMENDATIONS
+------------------------------------------------------------
+- Swap and isolate P-101A as per SOP-CDU-PUMP-ISOLATION-Rev3.
+- Inspect and align pump shaft utilizing laser alignment tools per API 686.
+- Replace mechanical seal kit and NDE bearing (SKF 6311 C3).
+- Review maintenance checklist to ensure alignment checks are signed off by the rotary supervisor.
+
+------------------------------------------------------------
+4. REPORTING OFFICIALS
+------------------------------------------------------------
+Reported by: Rakesh Sharma (Shift Incharge, Shift A)
+Investigated by: Praveen Meena (HSE Safety Officer)
+HOD Review: Anil Kumar (Unit Manager, CDU-1)
+
+============================================================
+Ref: BPCL-HSE-CDU1-IR-2024-0156
+============================================================

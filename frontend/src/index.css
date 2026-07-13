@@ -1,0 +1,199 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ------------------------------------------------------------------ */
+/* Industrial Knowledge Brain — global theme                          */
+/* ------------------------------------------------------------------ */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Slim, theme-aware scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(203 213 225);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(148 163 184);
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: rgb(71 85 105);
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: rgb(100 116 139);
+}
+
+/* ------------------------------------------------------------------ */
+/* Utility classes                                                    */
+/* ------------------------------------------------------------------ */
+
+@layer components {
+  .kbd {
+    @apply inline-flex items-center justify-center min-w-[1.5rem] px-1.5 py-0.5 text-[10px] font-mono font-semibold
+           bg-slate-100 text-slate-500 border border-slate-200 rounded-md shadow-sm;
+  }
+
+  .btn-primary {
+    @apply bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-xl px-5 py-2.5 text-sm
+           transition-all duration-200 active:scale-[0.97] disabled:opacity-40 disabled:cursor-not-allowed
+           disabled:active:scale-100 shadow-sm hover:shadow-md;
+  }
+
+  .btn-secondary {
+    @apply bg-white border border-slate-200 text-slate-600 font-medium rounded-xl px-4 py-2 text-sm
+           transition-all duration-200 hover:bg-slate-50 hover:border-slate-300 active:scale-[0.97];
+  }
+
+  .card {
+    @apply bg-white border border-slate-200 rounded-2xl shadow-sm
+           transition-all duration-300 hover:shadow-md;
+  }
+
+  .card-interactive {
+    @apply card hover:-translate-y-0.5 hover:border-blue-200 cursor-pointer;
+  }
+
+  .input-field {
+    @apply border border-slate-300 rounded-xl px-4 py-2.5 text-sm
+           focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent
+           transition-all duration-200;
+  }
+
+  .stagger-item {
+    opacity: 0;
+    animation: staggerIn 0.45s ease-out forwards;
+  }
+}
+
+@keyframes staggerIn {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@layer components {
+
+  .safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+}
+
+/* Shimmer skeleton background */
+.animate-shimmer {
+  background: linear-gradient(90deg, rgb(226 232 240) 25%, rgb(241 245 249) 50%, rgb(226 232 240) 75%);
+  background-size: 200% 100%;
+}
+
+/* Message bubble entrance */
+@keyframes messageIn {
+  from { opacity: 0; transform: translateY(8px) scale(0.98); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+.animate-message-in {
+  animation: messageIn 0.3s ease-out forwards;
+}
+
+/* Waveform bars for voice recording */
+@keyframes waveBar {
+  from { height: 4px; }
+  to { height: 18px; }
+}
+
+/* ------------------------------------------------------------------ */
+/* Dark mode — global overrides                                       */
+/* ------------------------------------------------------------------ */
+
+.dark { color-scheme: dark; }
+
+.dark .bg-white { background-color: rgb(30 41 59) !important; }
+.dark .bg-white\/80 { background-color: rgb(30 41 59 / 0.85) !important; }
+.dark .bg-white\/90 { background-color: rgb(30 41 59 / 0.92) !important; }
+.dark .bg-slate-50 { background-color: rgb(15 23 42) !important; }
+.dark .bg-slate-50\/40 { background-color: rgb(15 23 42 / 0.4) !important; }
+.dark .bg-slate-50\/50 { background-color: rgb(15 23 42 / 0.5) !important; }
+.dark .bg-slate-100 { background-color: rgb(15 23 42) !important; }
+.dark .bg-slate-200 { background-color: rgb(51 65 85) !important; }
+
+.dark .hover\:bg-slate-50:hover { background-color: rgb(51 65 85) !important; }
+.dark .hover\:bg-slate-100:hover { background-color: rgb(51 65 85) !important; }
+
+.dark .border-slate-100 { border-color: rgb(51 65 85) !important; }
+.dark .border-slate-200 { border-color: rgb(51 65 85) !important; }
+.dark .border-slate-300 { border-color: rgb(71 85 105) !important; }
+.dark .divide-slate-100 > * + * { border-color: rgb(51 65 85) !important; }
+
+.dark .text-slate-900 { color: rgb(241 245 249) !important; }
+.dark .text-slate-800 { color: rgb(226 232 240) !important; }
+.dark .text-slate-700 { color: rgb(203 213 225) !important; }
+.dark .text-slate-600 { color: rgb(148 163 184) !important; }
+.dark .text-slate-500 { color: rgb(148 163 184) !important; }
+.dark .text-slate-400 { color: rgb(100 116 139) !important; }
+
+.dark .kbd {
+  background-color: rgb(51 65 85) !important;
+  color: rgb(148 163 184) !important;
+  border-color: rgb(71 85 105) !important;
+}
+
+.dark input,
+.dark textarea,
+.dark select {
+  background-color: rgb(15 23 42) !important;
+  color: rgb(226 232 240) !important;
+}
+.dark input::placeholder,
+.dark textarea::placeholder {
+  color: rgb(100 116 139) !important;
+}
+
+.dark .bg-black\/40 { background-color: rgb(0 0 0 / 0.6) !important; }
+.dark .bg-black\/30 { background-color: rgb(0 0 0 / 0.6) !important; }
+
+.dark .animate-shimmer {
+  background: linear-gradient(90deg, rgb(51 65 85) 25%, rgb(71 85 105) 50%, rgb(51 65 85) 75%);
+  background-size: 200% 100%;
+}
+
+/* Keep pastel badge/chip backgrounds legible but slightly muted */
+.dark .bg-blue-50,
+.dark .bg-green-50,
+.dark .bg-emerald-50,
+.dark .bg-red-50,
+.dark .bg-amber-50,
+.dark .bg-orange-50,
+.dark .bg-purple-50,
+.dark .bg-cyan-50,
+.dark .bg-teal-50,
+.dark .bg-indigo-50,
+.dark .bg-yellow-100,
+.dark .bg-red-100,
+.dark .bg-green-100 {
+  filter: brightness(0.35) saturate(1.4);
+}
+.dark .border-blue-100, .dark .border-blue-200,
+.dark .border-green-100, .dark .border-green-200,
+.dark .border-emerald-100, .dark .border-emerald-200,
+.dark .border-red-100, .dark .border-red-200,
+.dark .border-amber-100, .dark .border-amber-200,
+.dark .border-orange-100, .dark .border-orange-200,
+.dark .border-purple-100, .dark .border-purple-200,
+.dark .border-indigo-100, .dark .border-indigo-200 {
+  filter: brightness(0.7);
+}
+
+.dark .text-amber-800 { color: rgb(252 211 77) !important; }
+.dark .text-amber-200 { color: rgb(253 230 138) !important; }
+.dark .text-red-800 { color: rgb(252 165 165) !important; }
+.dark .text-indigo-800 { color: rgb(196 181 253) !important; }

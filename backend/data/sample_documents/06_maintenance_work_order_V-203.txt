@@ -1,0 +1,52 @@
+BHARAT PETROLEUM CORPORATION LIMITED
+Mathura Refinery — Crude Distillation Unit (CDU-1)
+MAINTENANCE WORK ORDER
+============================================================
+
+Work Order No: WO-CDU1-2024-0912
+Date Raised: 18-April-2024
+Priority: MEDIUM (Scheduled)
+Plant Area: CDU-1 / Fractionation Section
+
+------------------------------------------------------------
+1. EQUIPMENT DETAILS
+------------------------------------------------------------
+Equipment Tag: V-203
+Equipment Type: High-Pressure Separator Vessel
+Manufacturer: Bharat Heavy Electricals Limited (BHEL)
+Installed: 2012
+Last Inspection: 12-December-2023
+
+------------------------------------------------------------
+2. PROBLEM REPORTED
+------------------------------------------------------------
+During routine plant inspection, a minor gas leak (bubble test positive, using soapy water) was detected on the main inlet flange gasket of vessel V-203. The flange operating pressure is 12.4 kg/cm2g (design: 18.5 kg/cm2g). Leak detector (Sniffer) registered hydrocarbon concentration of 80 ppm (allowable: < 50 ppm). No structural cracking detected on the vessel shell.
+
+------------------------------------------------------------
+3. ROOT CAUSE (PRELIMINARY)
+------------------------------------------------------------
+- **Thermal Cycling (Environment):** Flange bolts relaxed due to cyclic temperature fluctuations (operating: 110 degC to ambient during unit trips).
+- **Gasket degradation (Material):** Spiral wound gasket (316SS with graphite filler) showed signs of corrosion and compression set.
+
+------------------------------------------------------------
+4. ACTION PLAN
+------------------------------------------------------------
+a) Depressurize vessel V-203 as per SOP-CDU-VESSEL-DEPRESSURIZATION.
+b) Purge vessel with nitrogen until gas test is zero.
+c) Remove flange bolts, clean flange faces.
+d) Replace spiral wound gasket (316SS/Graphite, size: 8-inch Class 300).
+e) Reinstall and torque bolts in cross-pattern to 120 Nm per BHEL guidelines.
+f) Hydrotest flange joint to 15.0 kg/cm2g prior to unit restart.
+
+------------------------------------------------------------
+5. PERSONNEL
+------------------------------------------------------------
+Raised by: Sanjay Sen (Field Engineer, Fractionation)
+Assigned to: Ramesh Kumar (Mechanical Technician — Piping)
+Approved by: Anil Kumar (Unit Manager, CDU-1)
+Safety Clearance: Praveen Meena (HSE Safety Officer, permit no. PT-2024-0488)
+
+============================================================
+Target completion: 22-April-2024
+Estimated downtime cost: Rs. 1,80,000
+============================================================

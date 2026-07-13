@@ -1,0 +1,40 @@
+KIRLOSKAR BROTHERS LIMITED
+ROTARY EQUIPMENT DIVISION — USER MANUAL EXCERPT
+============================================================
+DOCUMENT: OEM-MANUAL-KDS-200X150 (Centrifugal Charge Pumps)
+Applicable Models: KDS-200x150, KDS-150x100
+Section 4: Mechanical Seal and Bearing Assembly
+
+------------------------------------------------------------
+1. BEARINGS AND LUBRICATION SPECIFICATIONS
+------------------------------------------------------------
+- Bearing Type NDE (Non-Drive End): SKF 6311 C3 (Deep groove ball bearing).
+- Bearing Type DE (Drive End): SKF 7311 BECBP (Angular contact ball bearings).
+- Recommended Lubricant: Mobil DTE Medium or equivalent ISO VG 46 mineral turbine oil.
+- Bearing Operating Temperature: Normal range is 55 degC to 75 degC. Maximum allowable bearing temperature before alarm is 85 degC. Mandatory emergency trip at 95 degC.
+- Lubricant Replacement Interval: Every 4,000 operating hours or 6 months.
+
+------------------------------------------------------------
+2. VIBRATION PARAMETERS AND LIMITS (ISO 10816-3)
+------------------------------------------------------------
+- Class II Machinery (Medium size pumps, 15 kW to 300 kW, rigid foundation):
+  - Zone A (Good): < 1.8 mm/s RMS.
+  - Zone B (Satisfactory): 1.8 to 4.5 mm/s RMS. (Alarm threshold set at 4.5 mm/s).
+  - Zone C (Unsatisfactory): 4.5 to 7.1 mm/s RMS. (Vibration warning).
+  - Zone D (Unacceptable): > 7.1 mm/s RMS. (Mandatory safety trip set at 7.1 mm/s).
+
+------------------------------------------------------------
+3. MECHANICAL SEAL LIMITS AND TROUBLESHOOTING
+------------------------------------------------------------
+- Seal Model: John Crane Type 2100 Elastomer Bellows Seal.
+- Maximum Operating Pressure: 15.0 kg/cm2g.
+- Maximum Fluid Temperature: 150 degC.
+- Recommended Flush Plan: API Plan 11 or API Plan 21 to control heat buildup.
+- Troubleshooting Seal Leakage:
+  a) Excess vibration (> 4.5 mm/s) leads to bellows distortion, face chipping, and rapid seal leakage.
+  b) Worn shaft sleeves or misalignment of shaft (> 0.05 mm parallel offset) induces cyclic loading on the seal faces, leading to premature leakage.
+  c) Fluid contamination with particulate matter (> 50 microns) causes abrasive wear on carbon-silicon carbide faces.
+
+============================================================
+Ref: KBL-ROT-UM-CDU1-PUMP (2020)
+============================================================

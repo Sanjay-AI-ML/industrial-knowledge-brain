@@ -1,0 +1,87 @@
+version: "3.9"
+
+services:
+  # ------------------------------------------------------------------ #
+  # Neo4j — OPTIONAL. Only needed if you don't have your own Neo4j
+  # (e.g. AuraDB) already configured in the root `.env`. Since it's not
+  # required by default, it's gated behind a Compose profile:
+  #
+  #   docker compose --profile local-neo4j up --build
+  #
+  # If the root `.env` already points NEO4J_URI at AuraDB (or any other
+  # reachable instance), just run `docker compose up --build` as normal
+  # and this service is skipped entirely.
+  # ------------------------------------------------------------------ #
+  neo4j:
+    image: neo4j:5.18-community
+    container_name: ikb-neo4j
+    profiles: ["local-neo4j"]
+    restart: unless-stopped
+    ports:
+      - "7474:7474"   # Browser UI — http://localhost:7474
+      - "7687:7687"   # Bolt
+    environment:
+      # Keep this in sync with NEO4J_PASSWORD in the root `.env` if you change it.
+      NEO4J_AUTH: neo4j/ikb_password
+      NEO4J_server_memory_pagecache_size: 256M
+      NEO4J_server_memory_heap_initial__size: 256M
+      NEO4J_server_memory_heap_max__size: 512M
+    volumes:
+      - neo4j_data:/data
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q --spider http://localhost:7474 || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+
+  # ------------------------------------------------------------------ #
+  # FastAPI Backend
+  #
+  # Reads ALL config from the project-root `.env` via `env_file` below —
+  # the same file used by local `uvicorn` dev (see backend/app/config.py).
+  # Only container-specific paths are overridden explicitly.
+  # ------------------------------------------------------------------ #
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: ikb-backend
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./.env
+    environment:
+      # These three MUST be container-specific regardless of what's in
+      # the root `.env` (which may have local-dev-oriented paths instead).
+      APP_HOST: 0.0.0.0
+      APP_PORT: 8000
+      CHROMA_PERSIST_DIR: /app/data/chroma_persist
+    volumes:
+      - ./backend/data:/app/data   # persists ChromaDB + sample documents
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 20s
+
+  # ------------------------------------------------------------------ #
+  # React Frontend (served by Vite dev server for hackathon demo)
+  # ------------------------------------------------------------------ #
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: ikb-frontend
+    restart: unless-stopped
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend
+    environment:
+      VITE_API_BASE: http://localhost:8000
+
+volumes:
+  neo4j_data:

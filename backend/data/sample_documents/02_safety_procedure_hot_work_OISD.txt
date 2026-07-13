@@ -1,0 +1,100 @@
+INDIAN OIL CORPORATION LIMITED
+Gujarat Refinery, Vadodara — Safety Department
+STANDARD OPERATING PROCEDURE (SOP)
+============================================================
+Document No: SOP-SAF-HW-014
+Revision: Rev-05
+Effective Date: 01-January-2024
+Next Review: 01-January-2027
+Approved by: Head of Safety & Fire Services
+------------------------------------------------------------
+
+PROCEDURE FOR HOT WORK PERMIT AND FIRE SAFETY
+IN PROCESS AREAS
+
+------------------------------------------------------------
+1. PURPOSE & SCOPE
+------------------------------------------------------------
+This procedure defines the minimum safety requirements for carrying out hot
+work (welding, cutting, grinding, brazing, and any spark-producing activity)
+in all process units, tank farms, and loading gantries of Gujarat Refinery.
+It applies to all employees, contractors, and vendor personnel.
+
+------------------------------------------------------------
+2. REFERENCES (REGULATORY & CORPORATE)
+------------------------------------------------------------
+- OISD-117: Standard on Fire Protection Facilities for Petroleum Refineries
+  and Petrochemical Plants (latest edition).
+- OISD-118: Standard on Layout Requirements for Industrial Installations
+  (fire separation distances).
+- OISD-105: Work Permit System.
+- Petroleum Rules 2002, framed under the Petroleum Act 1934.
+- The Factories Act 1948, Chapter IVA (provisions relating to hazardous
+  processes), Section 31 to 40.
+- PESO (Petroleum and Explosives Safety Organisation) guidelines on storage
+  of flammable liquids.
+- NFPA 51B: Standard for Fire Prevention During Welding, Cutting, and Other
+  Hot Work.
+- API RP 2201: Safe Welding, Cutting and Hot Work Practices.
+
+------------------------------------------------------------
+3. RESPONSIBILITIES
+------------------------------------------------------------
+3.1 Performing Authority (Hot Work Executor):
+    - Vikram Singh (Senior Welding Foreman)
+    - Obtain a valid hot work permit before commencing any work.
+3.2 Area Authority (Plant Incharge):
+    - Rajesh Khanna (Process Manager, FCC Unit)
+    - Ensure the worksite is made safe; verify gas-test results.
+3.3 Safety Officer:
+    - Mohammad Iqbal (Fire & Safety Officer)
+    - Issue the permit only after verifying all controls per OISD-105.
+3.4 Gas Tester:
+    - Sunil Yadav (Certified Gas Tester, certificate valid till 12-Dec-2025)
+
+------------------------------------------------------------
+4. PRE-WORK REQUIREMENTS (CONTROLS)
+------------------------------------------------------------
+a) Conduct Gas Free Test (GFT): LEL must be below 0% (zero) within a 10-metre
+   radius of the hot-work spot. Use a calibrated combustible gas detector.
+b) Remove all combustible material within an 11-metre (35 ft) radius, OR cover
+   with fire-resistant blankets (per OISD-117, clause 6.3).
+c) Provide a minimum of two 9-kg Dry Chemical Powder (DCP) fire extinguishers
+   and one 50-litre foam trolley at the worksite.
+d) Position a fire-watch with a charged fire hose throughout the work and for
+   a minimum of 30 minutes after completion.
+e) Earth all welding equipment; ensure continuity per IS 3043.
+f) Display the hot-work permit at the worksite.
+g) Stop all hot work if wind speed exceeds 35 km/h or during a thunderstorm
+   warning.
+
+------------------------------------------------------------
+5. EQUIPMENT & MONITORING
+------------------------------------------------------------
+- Combustible gas detector (MSA Altair 5X), calibrated 20-Feb-2024.
+- Equipment isolation: E-305 (Kettle reboiler) and V-203 (suction scrubber)
+  drained and blinded; blinds recorded in blind register BR-2024-0042.
+- Monitor suction scrubber V-203 pressure; must remain below 0.5 kg/cm2g
+  during hot work in the vicinity.
+
+------------------------------------------------------------
+6. PERMIT VALIDITY & CLOSURE
+------------------------------------------------------------
+- A hot work permit is valid for a single shift (max 8 hours) from the issue
+  time.
+- Closure requires sign-off by Performing Authority, Area Authority, and
+  Safety Officer, with a final fire-watch confirmation.
+- Retain the closed permit for a minimum of 2 years (Factories Act 1948,
+  Section 12 records).
+
+------------------------------------------------------------
+7. NON-COMPLIANCE
+------------------------------------------------------------
+Any violation is a reportable safety incident per OISD-105 and shall be logged
+in the refinery incident management system (IMS) within 24 hours. Repeat
+violations may attract penalties under the Factories Act 1948 and contract
+termination.
+
+============================================================
+THIS SOP IS A CONTROLLED DOCUMENT. UNCONTROLLED COPIES ARE INVALID.
+============================================================

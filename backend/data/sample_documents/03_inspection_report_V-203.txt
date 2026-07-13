@@ -1,0 +1,105 @@
+RELIANCE INDUSTRIES LIMITED
+Jamnagar Refinery — Inspection & Corrosion Cell
+EQUIPMENT INSPECTION REPORT
+============================================================
+Inspection Report No: IR-NDT-JMR-2024-0291
+Date of Inspection: 22-February-2024
+Next Inspection Due: 22-August-2024 (6-monthly)
+Inspection Type: Internal + Non-Destructive Testing (NDT)
+------------------------------------------------------------
+
+1. EQUIPMENT UNDER INSPECTION
+------------------------------------------------------------
+Equipment Tag: V-203
+Equipment Type: Vertical Suction Scrubber (Knock-out Drum)
+Service: Crude gas / liquid separation
+Unit: VGO Hydrotreater Unit (VGO-HDT)
+Design Code: ASME Section VIII, Division 1
+Year of Commissioning: 2008
+Last Inspection: 18-August-2023
+
+------------------------------------------------------------
+2. DESIGN & OPERATING PARAMETERS
+------------------------------------------------------------
+Design pressure: 22 kg/cm2g
+Operating pressure: 16.5 kg/cm2g (measured during inspection: 16.2 kg/cm2g)
+Design temperature: 180 degC
+Operating temperature: 148 degC (measured: 151 degC)
+Material of construction: SA-516 Gr. 70 (shell), SA-240 TP-316L (internals)
+Nominal thickness (shell): 28 mm
+Internal diameter: 1800 mm
+Tangent-to-tangent length: 4800 mm
+
+------------------------------------------------------------
+3. INSPECTION PERSONNEL & WITNESSES
+------------------------------------------------------------
+Lead Inspector: K. Rajan (Senior Inspection Engineer, Level II — UT/MT/PT)
+NDT Technician: Imran Khan (ASNT Level II — UT, MT, PT)
+Reviewed by: G. Subramanian (Head, Inspection & Corrosion Cell)
+Plant witness: Naresh Gupta (Unit Engineer, VGO-HDT)
+
+------------------------------------------------------------
+4. NDT SURVEY CARRIED OUT
+------------------------------------------------------------
+a) Ultrasonic Testing (UT) — Thickness Survey:
+   Grid: 500 mm x 500 mm, 144 locations measured on shell and both heads.
+   Minimum measured thickness: 26.1 mm (shell, south quadrant, elevation +2.0 m).
+   Corrosion rate (general): 0.20 mm/year.
+   Remaining corrosion allowance: 4.1 mm (design CA = 6.0 mm).
+b) Magnetic Particle Testing (MT) — Shell welds and nozzle welds:
+   Result: NO relevant indications. Acceptable.
+c) Dye Penetrant Testing (PT) — Internal attachment welds (demister support):
+   Result: Two linear indications, 3 mm and 5 mm long, at demister pad weld.
+   Acceptance: Per ASME Section VIII, Div. 1, Appendix 8 — REPAIR REQUIRED.
+d) Visual Inspection (VT):
+   - Internal surface: light pitting (max 1.5 mm depth) on lower head.
+   - Demister pad: partial blockage, requires cleaning.
+   - Inlet diverter: erosion at impingement plate, 2.0 mm wear groove.
+
+------------------------------------------------------------
+5. FINDINGS & RISK CLASSIFICATION
+------------------------------------------------------------
+Finding F-1: Demister support weld cracks (PT indications).
+  Risk: HIGH. Repair weld + re-PT before return to service.
+Finding F-2: Shell thinning to 26.1 mm (corrosion allowance reducing).
+  Risk: MEDIUM. Re-rate or apply corrosion inhibitor; monitor quarterly.
+Finding F-3: Inlet diverter impingement erosion.
+  Risk: MEDIUM. Replace impingement plate at next turnaround (TA-2026).
+Finding F-4: Light pitting on lower head.
+  Risk: LOW. Monitor; record in RBI database.
+
+------------------------------------------------------------
+6. REGULATORY & CODE REFERENCES
+------------------------------------------------------------
+- OISD-164: Inspection of Pressure Vessels and Storage Tanks in Petroleum
+  Industry (frequency and NDT coverage).
+- Petroleum Rules 2002 (Schedule 7 — pressure vessels).
+- Static and Mobile Pressure Vessels (Unfired) Rules (SMPV-U), 1981 —
+  statutory inspection by PESO-approved competent person.
+- Factories Act 1948, Section 28A (dangerous operations, pressure plant).
+- ASME Section V (Nondestructive Examination) and Section VIII Div. 1.
+- API 510: Pressure Vessel Inspection Code.
+- API 572: Inspection of Pressure Vessels.
+
+------------------------------------------------------------
+7. RECOMMENDATIONS
+------------------------------------------------------------
+1. Repair demister support weld (Finding F-1) per WPS-QA-115 and re-PT
+   before box-up. Responsible: Naresh Gupta. Target: 25-Feb-2024.
+2. Continue injection of corrosion inhibitor at V-203 inlet; review
+   injection rate with process engineering.
+3. Carry out UT survey at 3-month intervals at the thin location;
+   feed readings into RBI (Risk Based Inspection) tool.
+4. Schedule impingement plate replacement in TA-2026.
+
+------------------------------------------------------------
+8. FITNESS-FOR-SERVICE CONCLUSION
+------------------------------------------------------------
+V-203 is Fit for Continued Service CONDITIONAL on completion of F-1 repair
+and verification by re-PT. Re-inspection: 6-monthly UT survey, full internal
+inspection at next turnaround (TA-2026).
+
+============================================================
+Report digitally signed by Inspection Cell on 24-Feb-2024.
+Distribution: VGO-HDT Unit, Reliability, Safety, PESO file.
+============================================================

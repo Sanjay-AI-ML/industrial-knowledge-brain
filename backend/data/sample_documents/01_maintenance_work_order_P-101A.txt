@@ -1,0 +1,78 @@
+BHARAT PETROLEUM CORPORATION LIMITED
+Mathura Refinery — Crude Distillation Unit (CDU-1)
+MAINTENANCE WORK ORDER
+============================================================
+
+Work Order No: WO-CDU1-2024-0847
+Date Raised: 14-March-2024
+Priority: HIGH (Urgent)
+Plant Area: CDU-1 / Crude Charge Section
+
+------------------------------------------------------------
+1. EQUIPMENT DETAILS
+------------------------------------------------------------
+Equipment Tag: P-101A
+Equipment Type: Centrifugal Pump (Crude Charge Pump)
+Manufacturer: Kirloskar Brothers Limited
+Model: KDS-200x150
+Installed: 2011
+Last Overhaul: 09-August-2023
+
+------------------------------------------------------------
+2. PROBLEM REPORTED
+------------------------------------------------------------
+Field operator (Shift A) reported abnormal vibration and oil leakage from the
+mechanical seal area of P-101A during routine 06:00 hrs round on 14-Mar-2024.
+Suction pressure was fluctuating between 3.8 - 4.1 kg/cm2g (normal: 4.5 kg/cm2g).
+Discharge temperature recorded at 142 degC (design: 135 degC). Vibration on the
+non-drive end (NDE) bearing measured 7.2 mm/s (alarm: 4.5 mm/s; trip: 7.1 mm/s).
+
+------------------------------------------------------------
+3. ROOT CAUSE (PRELIMINARY)
+------------------------------------------------------------
+Inspection by maintenance team indicates worn-out mechanical seal (John Crane
+Type 2100) and probable bearing wear on NDE. Fluid contamination suspected due
+to degraded seal integrity.
+
+------------------------------------------------------------
+4. ACTION PLAN
+------------------------------------------------------------
+a) Isolate and tag-out P-101A as per SOP-CDU-PUMP-ISOLATION-Rev3.
+b) Switch over to standby pump P-101B and monitor.
+c) Replace mechanical seal and NDE bearing (SKF 6311 C3).
+d) Check shaft alignment per API 686 tolerances.
+e) Conduct trial run and record vibration signature.
+f) Update equipment history in CMMS after completion.
+
+------------------------------------------------------------
+5. PERSONNEL
+------------------------------------------------------------
+Raised by: Rakesh Sharma (Shift Incharge, Shift A)
+Assigned to: Suresh Patel (Maintenance Engineer — Rotary)
+Approved by: Anil Kumar (Unit Manager, CDU-1)
+Safety clearance: Praveen Meena (CIP/Safety Officer, permit no. PT-2024-0319)
+
+------------------------------------------------------------
+6. REGULATORY / STANDARD REFERENCES
+------------------------------------------------------------
+- OISD-154: Safety in Operation of Pumps and Compressors
+- API 610: Centrifugal Pumps for Petroleum Industry
+- Factory Act 1948, Schedule (hazardous processes)
+- MSDS for crude oil (document ref: MSDS-CRUDE-2023)
+
+------------------------------------------------------------
+7. INCIDENT REFERENCE
+------------------------------------------------------------
+Linked to incident IR-2024-0156 (near-miss: seal failure with no injury).
+
+------------------------------------------------------------
+8. SPARES REQUIRED
+------------------------------------------------------------
+- Mechanical seal kit, John Crane 2100 — 1 no.
+- Bearing, SKF 6311 C3 — 2 nos.
+- Gasket set, pump casing — 1 set
+
+============================================================
+Target completion: 16-March-2024 (within 48 hrs)
+Estimated downtime cost: Rs. 4,20,000
+============================================================
