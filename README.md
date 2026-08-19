@@ -1,5 +1,7 @@
 # 🏭 Industrial Knowledge Brain (IKB)
 
+![FastAPI](https://img.shields.io/badge/fastapi-0.100-blue?logo=fastapi&logoColor=white) ![React](https://img.shields.io/badge/react-18-blue?logo=react&logoColor=white) ![ChromaDB](https://img.shields.io/badge/chromadb-0.3-blue) ![LLM](https://img.shields.io/badge/llm-gemini-blue) ![PostgreSQL](https://img.shields.io/badge/postgresql-15-blue?logo=postgresql&logoColor=white)
+
 > **AI-powered unified intelligence platform for Indian asset-intensive industries.**
 > Built for the hackathon — Phases 1–6 fully implemented.
 
